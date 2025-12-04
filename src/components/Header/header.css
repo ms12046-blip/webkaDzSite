@@ -1,0 +1,47 @@
+.header {
+    background: #c62828;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .header__logo {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  
+  .header__nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header__link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .header__link:hover {
+    color: #ffe8e8;
+    transform: translateY(-2px);
+  }
+  
+  .header__button {
+    background: white;
+    color: #c62828;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .header__button:hover {
+    background: #ffebee;
+    transform: scale(1.05);
+  }
+  
